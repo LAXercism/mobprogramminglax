@@ -17,7 +17,7 @@ http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheats
 
 For Jen:  
 To run the server locally:   
-$ `web: rackup -s puma -p 3000 -o 0.0.0.0`
+$ `rackup -s puma -p 3000 -o 0.0.0.0`
 
 Go to the browser at:
 http://0.0.0.0:3000/
