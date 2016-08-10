@@ -28,7 +28,7 @@ puts page.html
 
 ---
 
-## [Posgres Cheatsheet](http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf(
+## [Posgres Cheatsheet](http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf)
 
 ---
 
