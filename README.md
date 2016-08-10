@@ -1,6 +1,10 @@
 # mobprogramminglax
 
+### Original problem
 https://github.com/exercism/exercism.io/pull/2981
+
+### Test PR
+https://github.com/exercism/exercism.io/pull/3005
 
 `bundle exec rake test TEST=test/acceptance/team_test.rb`
 
