@@ -19,13 +19,16 @@ https://github.com/exercism/exercism.io/pull/3005
 
 ### Using Pry
 
-require 'pry'; binding.pry  
+`require 'pry'; binding.pry` 
 
 ---
 
 puts page.html
 
-http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf
+
+---
+
+## [Posgres Cheatsheet](http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf(
 
 ---
 
