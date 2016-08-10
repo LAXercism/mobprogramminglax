@@ -6,11 +6,23 @@ https://github.com/exercism/exercism.io/pull/2981
 ### Test PR
 https://github.com/exercism/exercism.io/pull/3005
 
+---
+
+### To run our tests
+
 `bundle exec rake test TEST=test/acceptance/team_test.rb`
 
+### To run it locally
 `foreman s -p 4567`
 
+---
+
+### Using Pry
+
 require 'pry'; binding.pry  
+
+---
+
 puts page.html
 
 http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf
