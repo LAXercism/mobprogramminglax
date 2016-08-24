@@ -4,8 +4,16 @@
 https://github.com/exercism/exercism.io/pull/2981
 
 ### Test PR
-https://github.com/exercism/exercism.io/pull/3005
+https://github.com/exercism/exercism.io/pull/3005  
 newset PR https://github.com/exercism/exercism.io/pull/3079
+
+--
+
+## [Syncing the forked repository to the upstream master to keep it up-to-date](https://help.github.com/articles/syncing-a-fork/)
+
+
+## git rebase
+https://help.github.com/articles/about-git-rebase/
 
 
 ---
