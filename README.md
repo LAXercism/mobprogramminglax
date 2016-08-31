@@ -27,6 +27,17 @@ https://help.github.com/articles/about-git-rebase/
 
 ---
 
+```ruby
+git checkout master
+git fetch upstream
+git rebase upstream master
+git checkout team-pagination 
+git rebase master 
+```
+git push origin team-pagination --force
+
+---
+
 ### Using Pry
 
 `require 'pry'; binding.pry` 
