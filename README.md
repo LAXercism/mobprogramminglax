@@ -30,7 +30,7 @@ https://help.github.com/articles/about-git-rebase/
 ```ruby
 git checkout master
 git fetch upstream
-git rebase upstream master
+git rebase upstream/master
 git checkout team-pagination 
 git rebase master 
 ```
