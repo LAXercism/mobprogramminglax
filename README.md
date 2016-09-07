@@ -44,8 +44,7 @@ git push origin team-pagination --force
 
 ---
 
-puts page.html
-
+[puts page.html](https://github.com/LAXercism/mobprogramminglax/issues/3)
 
 ---
 
