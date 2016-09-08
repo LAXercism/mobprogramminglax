@@ -27,12 +27,22 @@ https://help.github.com/articles/about-git-rebase/
 
 ---
 
-```ruby
+
+
+```
 git checkout master
 git fetch upstream
 git rebase upstream/master
 git checkout team-pagination 
 git rebase master 
+git push origin team-pagination --force
+```
+```
+git checkout master
+git branch -m team-pagination team-pagination-mess
+git checkout -b team-pagination
+git cherry-pick eb6c6fe..faa36ad
+git push origin team-pagination --force
 ```
 git push origin team-pagination --force
 
