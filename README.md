@@ -69,3 +69,8 @@ $ `rackup -s puma -p 3000 -o 0.0.0.0`
 
 Go to the browser at:
 http://0.0.0.0:3000/
+
+3 files
+`app/routes/teams.rb`  
+`team_test.rb`  
+`team_stream.rb`
