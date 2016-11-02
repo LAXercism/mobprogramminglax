@@ -84,14 +84,14 @@ git push origin team-pagination --force
 
 ---
 
-### Using Pry
+#### Using Pry
 
 `require 'pry'; binding.pry` 
 
 ---
 
-## [Posgres Cheatsheet](http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf)
+#### [Posgres Cheatsheet](http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf)
 
 ---
 
-## [Syncing the forked repository to the upstream master to keep it up-to-date](https://help.github.com/articles/syncing-a-fork/)
+#### [Syncing the forked repository to the upstream master to keep it up-to-date](https://help.github.com/articles/syncing-a-fork/)
