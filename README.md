@@ -18,8 +18,6 @@ https://github.com/exercism/exercism.io/pull/2981
 
 ---
 
-## [Syncing the forked repository to the upstream master to keep it up-to-date](https://help.github.com/articles/syncing-a-fork/)
-
 ## git rebase
 https://help.github.com/articles/about-git-rebase/
 
@@ -93,3 +91,7 @@ git push origin team-pagination --force
 ---
 
 ## [Posgres Cheatsheet](http://www.postgresonline.com/downloads/special_feature/postgresql83_psql_cheatsheet.pdf)
+
+---
+
+## [Syncing the forked repository to the upstream master to keep it up-to-date](https://help.github.com/articles/syncing-a-fork/)
