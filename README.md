@@ -29,15 +29,14 @@ https://help.github.com/articles/about-git-rebase/
 ---
 
 
-
+To update the branch to match with upstream
 ```
 git checkout master
-git fetch upstream
-git rebase upstream/master
-git checkout team-pagination 
-git rebase master 
-git push origin team-pagination --force
+git pull upstream master
+git checkout branch-name
+git rebase master
 ```
+
 ```
 git checkout master
 git branch -m team-pagination team-pagination-mess
