@@ -44,7 +44,8 @@ Go to the browser at: http://0.0.0.0:3000/
 
 ===
 
-### Run tests with pry
+### Create the page to view it
+#### Add pry
 ```
     with_login(user) do
       visit("/teams/some-team/streams?per_page=2")
@@ -52,7 +53,8 @@ Go to the browser at: http://0.0.0.0:3000/
       click_link("2")
     end
 ```
-and then ran this in the pry repl:
+#### Run the ests with pry
+#### Run this in the pry repl:
 
 `target = open('page.html', 'w')`
 
