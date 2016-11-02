@@ -40,7 +40,7 @@ Go to the browser at: http://0.0.0.0:3000/
 ===
 
 ### Create the page to view it
-1. Add pry
++ Add pry
 ```
     with_login(user) do
       visit("/teams/some-team/streams?per_page=2")
@@ -48,10 +48,10 @@ Go to the browser at: http://0.0.0.0:3000/
       click_link("2")
     end
 ```
-2. Run the tests with pry
++ Run the tests with pry
 `bundle exec rake test TEST=test/acceptance/team_test.rb`
 
-3. Run this in the pry repl:
++ Run this in the pry repl:
 
 `target = open('page.html', 'w')`
 
@@ -59,7 +59,7 @@ Go to the browser at: http://0.0.0.0:3000/
 
 `target.close`
 
-4. BE SURE TO EXIT PRY!
++ BE SURE TO EXIT PRY!
 $ exit
 
 ---
