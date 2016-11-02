@@ -20,10 +20,8 @@ https://github.com/exercism/exercism.io/pull/2981
 
 ## [Syncing the forked repository to the upstream master to keep it up-to-date](https://help.github.com/articles/syncing-a-fork/)
 
-
 ## git rebase
 https://help.github.com/articles/about-git-rebase/
-
 
 ---
 
@@ -36,7 +34,6 @@ https://help.github.com/articles/about-git-rebase/
 ### To run exercism locally
 `foreman s -p 4567`
 
-
 For Jen to run the server locally:   
 $ `rackup -s puma -p 3000 -o 0.0.0.0`
 
@@ -45,7 +42,7 @@ Go to the browser at: http://0.0.0.0:3000/
 ===
 
 ### Create the page to view it
-#### Add pry
+1. Add pry
 ```
     with_login(user) do
       visit("/teams/some-team/streams?per_page=2")
@@ -53,8 +50,10 @@ Go to the browser at: http://0.0.0.0:3000/
       click_link("2")
     end
 ```
-#### Run the ests with pry
-#### Run this in the pry repl:
+2. Run the tests with pry
+`bundle exec rake test TEST=test/acceptance/team_test.rb`
+
+3. Run this in the pry repl:
 
 `target = open('page.html', 'w')`
 
@@ -62,7 +61,8 @@ Go to the browser at: http://0.0.0.0:3000/
 
 `target.close`
 
-BE SURE TO EXIT PRY!
+4. BE SURE TO EXIT PRY!
+$ exit
 
 ---
 
